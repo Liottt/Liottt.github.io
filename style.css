@@ -1,0 +1,82 @@
+html, head, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.sidebar{
+    float: left;
+    width: 30%;
+}
+.content{
+    float: left;
+    width: 70%;
+}
+.row::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.avatar{
+    width: auto;
+    height: 200px;
+}
+.userinfo{
+    text-align: center;
+    background-image: url('./asd2.jpg');
+    background-size: cover;
+    background-position: center; 
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 150px;
+    margin-bottom: 80px;
+}
+.avatar-block{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 1px 10px 3px #fff; 
+    box-shadow: 0px 1px 10px 3px #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('./asd2.jpg');
+    background-size: cover;
+    background-position-x: center; 
+    margin-top: 100px;
+}
+.username{
+    font-size: 38px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.contacts, .name{
+    text-align: center;
+}
+.contacts p{
+    display: inline-block;
+    margin-left:10px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.contacts p:hover{
+    color: #777;
+}
+
+.title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    color: #777;
+}
+
+.education li, .exp li{
+    list-style-type: none;
+    color: #777;
+}
+
+.education li:first-child{
+    font-weight: 600;
+}
